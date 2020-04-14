@@ -1,11 +1,13 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar'
 import SplashPage from './components/SplashPage'
+import About from './components/About'
 import ProjectList from './components/ProjectList'
 import SkillList from './components/SkillList'
 import PhotoList from './components/PhotoList'
-import About from './components/About'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -13,10 +15,11 @@ function App() {
     <div className="App">
       <NavBar />
       <SplashPage />
-      <ProjectList />
-      <SkillList />
-      <PhotoList />
       <About />
+      <SkillList />
+      <ProjectList />
+      <PhotoList />
+      <Footer />
     </div>
   );
 }
