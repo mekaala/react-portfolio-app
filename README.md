@@ -66,3 +66,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+I decided to remake my portfolio with React. I believe that my website will become more responsive and complex with React.
+
+Things to add:
+Photography
+Skills (Resume?)
+Footer
