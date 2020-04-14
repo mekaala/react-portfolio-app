@@ -5,11 +5,11 @@ export default class NavBar extends Component {
         return (
             <div>
                 <nav className="navbar">
-                    <a href="#projects">PROJECTS</a>
                     <a href="#skills">SKILLS</a>
+                    <a href="#projects">PROJECTS</a>
                     <a href="#home"><h1>Mekaal Ahmad</h1></a>
                     <a href="#photography">PHOTOGRAPHY</a>
-                    <a href="#about">ABOUT</a>
+                    <a href="#aboutMe">ABOUT</a>
                 </nav>
             </div>
         )

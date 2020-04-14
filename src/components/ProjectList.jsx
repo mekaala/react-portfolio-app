@@ -10,7 +10,7 @@ export default class ProjectList extends Component {
                 <div className="project-container">
                     {ProjectData.map((project, i) => {
                         return <Project project={project} key={i} />
-                    })}   
+                    })}
                 </div>
             </div>
         )
