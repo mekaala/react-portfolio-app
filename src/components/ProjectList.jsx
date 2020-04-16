@@ -12,6 +12,10 @@ export default class ProjectList extends Component {
                         return <Project project={project} key={i} />
                     })}
                 </div>
+                <h3>
+                    <a href="https://github.com/mekaala" target="_blank">GitHub Profile</a><br/>
+                    <a href="https://github.com/mekaala/react-portfolio-app" target="_blank">Portfolio Repository</a>
+                </h3>
             </div>
         )
     }

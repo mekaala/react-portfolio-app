@@ -14,6 +14,9 @@ export default class Project extends Component {
                 <div className="project-description">
                     <div>{this.props.project.description}</div>
                 </div>
+                <div>
+                    <a href={this.props.project.githubUrl} target="_blank">Project Repository</a>
+                </div>
             </div>
         )
     }
