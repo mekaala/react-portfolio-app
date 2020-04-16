@@ -34,7 +34,6 @@ export default class SkillList extends Component {
                         return <Skill skill={skill} key={i} />
                     })}
                 </div>
-                <h3><a href="https://www.linkedin.com/in/mekaal-ahmad-b7339191/" target="_blank">Linkedin</a></h3>
                 <button onClick={ this.toggleResume }>
                     { this.state.showResume
                         ? 'Collapse'
