@@ -32,7 +32,9 @@ export default class PhotoList extends Component {
                                 return <Photo photo={photo} key={i} />
                             })}   
                         </div>
-                        <h3>A selection of photos I have taken from 2016. To view more, please visit <a href="https://www.instagram.com/mekastro/?hl=en" target="_blank">Mekastro</a>.</h3>
+                        <h3>
+                            <a href="https://www.instagram.com/mekastro/?hl=en" target="_blank">@mekastro</a>
+                        </h3>
                     </div>
                     : null
                 }
