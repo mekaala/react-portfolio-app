@@ -46,13 +46,13 @@ a:hover, .navbar a:hover {
   background: rgb(15,12,1);
   box-shadow: -4px 1px 5px #000;
 }
-.navbar a {
+.navbar a, .about a {
   text-decoration: none;
   color: white;
   margin: auto;
   
 }
-.navbar a:hover, .project-item-name a:hover, .footer a:hover {
+.navbar a:hover, .about a:hover, .project-item-name a:hover, .footer a:hover {
   color: rgb(56, 143, 243);
   transition-duration: 0.5s;
 }
@@ -101,7 +101,6 @@ a:hover, .navbar a:hover {
 .about-description {
   width: 60%;
   margin: 5%;
-
 }
 .about-description h2 {
   width: 100%;
