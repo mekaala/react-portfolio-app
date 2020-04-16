@@ -236,3 +236,73 @@ a:hover, .navbar a:hover {
   display: flex;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 760px) {
+  /* MISC */
+  button {
+    font-size: 1em;
+    width: 50%;
+  }
+
+  /* SPLASH PAGE */
+  .splash-page {
+    background-position: center;
+    background-size: stretch;
+    height: 25vh;
+  }
+  .splash-page div h1 {
+    font-size: 1.5em;
+  }
+  .splash-page div h2 {
+    font-size: 60%;
+  }
+
+  /* NAVIGATION */
+  .navbar {
+    display: none;
+  }
+
+  /* ABOUT */
+  .about h1 {
+    font-size: 1.5em;
+  }
+  .about-container {
+    display: block;
+  }
+  .about-description {
+    width: auto;
+  }
+  .about-description p {
+    font-size: smaller;
+    line-height: 1.25em;
+  }
+
+  /* SKILLS */
+  .skill-list h3 {
+    font-size: smaller;
+  }
+
+  /* PROJECTS */
+  .project-list {
+    width: 350px;
+    min-width: 300px;
+  }
+
+  /* PHOTOGRAPHY */
+  .photo {
+    width: auto;
+    height: auto;
+    margin: 10px auto;
+  }
+  .photo img {
+    height: auto;
+  }
+  .photo h3 {
+    display: none;
+  }
+
+  /* FOOTER */
+  .footer {
+    font-size: smaller;
+  }
+}
