@@ -1,9 +1,9 @@
 export default [
     {
-        name: 'HTML',
+        name: 'HTML5',
     },
     {
-        name: 'CSS',
+        name: 'CSS3',
 
     },
     {
@@ -23,7 +23,7 @@ export default [
 
     },
     {
-        name: 'React',
+        name: 'React.js',
 
     },
     {
@@ -37,9 +37,9 @@ export default [
 
     },
     {
-        name: 'SQL',
+        name: 'PostgreSQL',
     },
     {
         name: 'Django',
-    }    
+    },
 ];

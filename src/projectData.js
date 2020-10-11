@@ -1,5 +1,12 @@
 export default [
     {
+        name: 'Cardiology Center of Dalton Website',
+        url: 'https://www.healthyheartsmd.com/',
+        image: require('./images/card-center-dalton.png'),
+        description: 'Front end application of a cardiology office. Developed with react.js, this website contains a directory, and information on diagnostics, diseases, and healthy practices for the heart.',
+        githubUrl: 'https://github.com/mekaala/card-center-dalton',
+    },
+    {
         name: 'Dynamic Jeopardy',
         url: 'https://nintendo-jeopardy.netlify.com/',
         image: require('./images/Jeopardy.jpg'),
@@ -27,11 +34,4 @@ export default [
         description: 'Developed with Python, Django, and React. Database of the video game Animal Crossing that helps users discover obtainable fish, bugs, and fossils.',
         githubUrl: 'https://github.com/mekaala/project-four',
     },
-    {
-        name: 'Cardiology Center of Dalton Website',
-        url: 'https://card-center-dalton.herokuapp.com/',
-        image: require('./images/card-center-dalton.png'),
-        description: 'Front end application of a cardiology office. Developed with react.js, this website contains a directory, and information on diagnostics, diseases, and healthy practices for the heart.',
-        githubUrl: 'https://github.com/mekaala/card-center-dalton',
-    }
 ];
