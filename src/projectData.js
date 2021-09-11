@@ -1,9 +1,16 @@
 export default [
     {
+        name: 'React Tetris',
+        url: 'https://master.d3f6hxrsgclov1.amplifyapp.com/',
+        image: require('./images/react-tetris.png'),
+        description: 'Front end React application based on Tetris. The purpose of this project was to understand React Hooks and work with Styled Components.',
+        githubUrl: 'https://github.com/mekaala/react-tetris',
+    },
+    {
         name: 'Cardiology Center of Dalton Website',
         url: 'https://www.healthyheartsmd.com/',
         image: require('./images/card-center-dalton.png'),
-        description: 'Front end application of a cardiology office. Developed with react.js, this website contains a directory, and information on diagnostics, diseases, and healthy practices for the heart.',
+        description: 'Fullstack application of a cardiology office. Developed with React.js, this website contains a directory, and information on diagnostics, diseases, and healthy practices for the heart.',
         githubUrl: 'https://github.com/mekaala/card-center-dalton',
     },
     {
