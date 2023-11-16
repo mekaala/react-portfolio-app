@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Open+Sans&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat';
+  font-family: 'Open Sans';
   background: black;
   color: white;
 }
@@ -12,7 +13,7 @@ body {
 }
 
 button {
-  font-family: 'Montserrat';
+  font-family: 'Open Sans';
   font-size: 24px;
   border-radius: 12px;
   width: 30%;
