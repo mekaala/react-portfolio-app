@@ -54,7 +54,7 @@ a:hover, .navbar a:hover {
   grid-template-columns: repeat(5, 1fr);
 }
 .scrolled {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0);
   position: sticky;
   top: 0;
   transition: 0.25s;
