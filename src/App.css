@@ -8,6 +8,46 @@ body {
   color: white;
 }
 
+/* .word {
+  display: ;
+} */
+
+.word span {
+  color: white;
+  position: relative;
+}
+
+/* .word span::after {
+  content: '';
+  width: 2px;
+  height: 100%;
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  animation: blink 0.5s ease infinite alternate-reverse;
+} */
+
+@keyframes blink {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+}
+
+.word.empty {
+  visibility: hidden;
+}
+
+.word.empty span::after {
+  visibility: visible;
+  right: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -95,6 +135,7 @@ a:hover, .navbar a:hover {
 
 .about {
   background: black;
+  padding: 20px;
 }
 .about h1 {
   color: white;
