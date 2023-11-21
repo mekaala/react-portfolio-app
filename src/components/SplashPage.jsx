@@ -1,14 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
+import Typewriter from './Typewriter'
 
-export default class SplashPage extends Component {
-    render() {
-        return (
-            <div id="home" className="splash-page">
-                <div>
-                    <h1>Mekaal Ahmad</h1>
-                    <h2>Full Stack Software Engineer | Photographer | Nintendo Enthusiast</h2>
-                </div>
+function SplashPage() {
+    const { word } = Typewriter(['Software', 'React.js', 'Front End', 'Back End', 'Node.js', 'Full Stack', 'JavaScript'], 130, 20)
+    return (
+        <div id="home" className="splash-page">
+            <div>
+                <h1>Mekaal Ahmad</h1>
+                <h2>{ word } Engineer</h2>
             </div>
-        )
-    }
+        </div>
+    )
 }
+
+export default SplashPage
