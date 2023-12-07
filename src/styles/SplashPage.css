@@ -1,0 +1,45 @@
+.splash-page {
+    background-image: url('../images/ArchesPano.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.splash-page div {
+    max-width: 1000px;
+    animation: fadeIn 3s;
+}
+.splash-page div h1 {
+    font-size: 4rem;
+}
+.splash-page div h2 {
+    font-weight: 350;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    .splash-page {
+        background-position: 90%;
+        background-size: stretch;
+        /* height: 25vh; */
+    }
+    .splash-page div h1 {
+        font-size: 1.5em;
+    }
+    .splash-page div h2 {
+        font-size: 100%;
+    }
+}

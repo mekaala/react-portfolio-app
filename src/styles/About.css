@@ -1,0 +1,48 @@
+.about {
+    background: black;
+    padding: 20px;
+}
+.about h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+.about-container {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4% 1%;
+}
+.about-container img {
+    width: 40%;
+    max-width: 350px;
+    border-radius: 8px;
+}
+.about-description {
+    width: 60%;
+    margin: 5%;
+}
+.about-description h2 {
+    width: 100%;
+}
+.about p {
+    width: 100%;
+    font-size: 1.15rem;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 760px) {
+    .about h1 {
+        font-size: 1.5em;
+    }
+      .about-container {
+        display: block;
+     }
+      .about-description {
+        width: auto;
+    }
+      .about-description p {
+        font-size: smaller;
+        line-height: 1.25em;
+    }
+}

@@ -1,0 +1,49 @@
+.photos {
+    background: white;
+    color: black;
+    padding: 10px;
+}
+  .photos h1{
+    font-size: 2.5rem;
+}
+  .photos h3 {
+    font-weight: lighter;
+}
+  .photo-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgba(255,255,255,.85);
+    margin: 2% auto;
+}
+  
+  .photo {
+    width: 30%;
+}
+  .photo h3 {
+    font-weight: lighter;
+}
+  .photo img {
+    width: 100%;
+    height: 67%;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 760px) {
+    .photo {
+        width: auto;
+        height: auto;
+        margin: 10px auto;
+      }
+      .photo img {
+        height: auto;
+      }
+      .photo h3 {
+        display: none;
+      }
+    
+      /* FOOTER */
+      .footer {
+        font-size: smaller;
+      }
+}
