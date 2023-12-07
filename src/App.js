@@ -1,25 +1,27 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css';
 import NavBar from './components/NavBar'
-import SplashPage from './components/SplashPage'
 import About from './components/About'
 import ProjectList from './components/ProjectList'
-import SkillList from './components/SkillList'
 import PhotoList from './components/PhotoList'
-import Footer from './components/Footer';
+import Home from './components/Home';
 
 
 function App() {
   return (
     <div className="App">
+      <Router>
       <NavBar />
-      <SplashPage />
-      <About />
-      <SkillList />
-      <ProjectList />
-      <PhotoList />
-      <Footer />
+        <Routes>
+          <Route exact path='/' element={ <Home/> }/>
+          <Route exact path='/about' element={ <About/> }/>
+          <Route exact path='/projects' element={ <ProjectList/> }/>
+          <Route exact path='/photography' element={ <PhotoList/> }/>
+        </Routes>
+      {/* <Footer /> */}
+      </Router>
     </div>
   );
 }
