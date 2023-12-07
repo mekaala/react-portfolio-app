@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Project from './Project'
 import ProjectData from '../projectData'
+import '../styles/ProjectList.css'
 
 export default class ProjectList extends Component {
     render() {

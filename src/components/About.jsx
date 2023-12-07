@@ -1,5 +1,6 @@
 import React from 'react'
 import profile from '../images/profile.jpg'
+import '../styles/About.css'
 
 function About() {
   return (
@@ -14,5 +15,8 @@ function About() {
     </div>
 </div>  )
 }
+
+// this page needs more information on career background and accomplishments at my work
+// also needs a new background that is better looking
 
 export default About

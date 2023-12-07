@@ -1,9 +1,10 @@
 import React, {useState, useEffect, useRef} from 'react'
+import '../styles/TypeWriter.css'
 
 const FORWARD = 'forward';
 const BACKWARD = 'backward';
 
-const Typewriter = (words, keySpeed = 1000, maxPauseAmount = 10) => {
+const Typewriter = (words, keySpeed = 800, maxPauseAmount = 10) => {
 
     const [wordIndex, setWordIndex] = useState(0);
     const [currentWord, setCurrentWord] = useState(words[wordIndex].split(''));

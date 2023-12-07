@@ -6,9 +6,8 @@ export default class Footer extends Component {
         return (
             <div className="footer">
                 <div className="bottom">
-                    <a href="https://reactjs.org/" target="_blank">Made with React.js</a>
                     <nav className="footernav">
-                        <a href="https://www.linkedin.com/in/mekaal-ahmad-b7339191/" target="_blank">Linkedin</a> | <a href="https://github.com/mekaala" target="_blank">GitHub</a> | <a href="https://www.instagram.com/mekastro/?hl=en" target="_blank">Instagram</a>
+                        <a href="https://www.linkedin.com/in/mekaal-ahmad/" target="_blank">Linkedin</a> | <a href="https://github.com/mekaala" target="_blank">GitHub</a> | <a href="https://www.instagram.com/mekastro/?hl=en" target="_blank">Instagram</a>
                     </nav>
                 </div>
             </div>

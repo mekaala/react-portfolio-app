@@ -1,8 +1,9 @@
 import React from 'react'
 import Typewriter from './Typewriter'
+import '../styles/SplashPage.css'
 
 function SplashPage() {
-    const { word } = Typewriter(['Software', 'React.js', 'Front End', 'Back End', 'Node.js', 'Full Stack', 'JavaScript'], 130, 20)
+    const { word } = Typewriter(['Software', 'React.js', 'Front End', 'Back End', 'Node.js', 'Full Stack', 'JavaScript'], 200, 15)
     return (
         <div id="home" className="splash-page">
             <div>
