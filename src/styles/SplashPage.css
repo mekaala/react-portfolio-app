@@ -30,11 +30,10 @@
 }
 
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
     .splash-page {
         background-position: 90%;
-        background-size: stretch;
-        /* height: 25vh; */
+        height: 89.4vh;
     }
     .splash-page div h1 {
         font-size: 1.5em;
